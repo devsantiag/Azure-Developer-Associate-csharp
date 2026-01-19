@@ -1,0 +1,2 @@
+# Azure-Developer-Associate-csharp
+Opção 3 — Completa (recomendada)  📘 Repositório de estudos para a certificação Microsoft Azure Developer Associate (AZ-204). Inclui exemplos práticos, projetos, anotações e exercícios em C# / .NET, abordando serviços do Azure, integração, segurança, monitoramento e boas práticas de desenvolvimento em nuvem.
