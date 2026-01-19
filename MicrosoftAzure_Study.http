@@ -1,0 +1,6 @@
+@MicrosoftAzure_Study_HostAddress = http://localhost:5183
+
+GET {{MicrosoftAzure_Study_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
