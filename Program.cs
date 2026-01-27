@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddSingleton<UserService>();
+builder.Services.AddSingleton<UserCredentialsServices>();
 
 var app = builder.Build();
 

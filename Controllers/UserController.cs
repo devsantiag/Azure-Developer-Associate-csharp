@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using MicrosoftAzure_Study.Models;
 using MicrosoftAzure_Study.Services;
-using System.Security.Cryptography.X509Certificates;
 
 namespace MicrosoftAzure_Study.Controllers;
 
@@ -11,7 +10,6 @@ public class UserController : ControllerBase
 {
 
     private readonly UserService _service;
-
 
     public UserController(UserService service)
     {

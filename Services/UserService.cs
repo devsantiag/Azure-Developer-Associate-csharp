@@ -2,6 +2,7 @@ using MicrosoftAzure_Study.Models;
 
 namespace MicrosoftAzure_Study.Services;
 
+
 public class UserService
 {
     private static readonly List<User> UserInformation =
@@ -26,6 +27,7 @@ public class UserService
             new() { Id = 18, Name = "NetAdmin", Email = "netadmin@sulake.com" },
             new() { Id = 19, Name = "Security", Email = "security@sulake.com" }
         ];
+
 
     public List<User> GetAll()
     {
